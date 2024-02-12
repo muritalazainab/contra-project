@@ -1,0 +1,341 @@
+/* Navbar */
+@media screen and (max-width: 1280px) {
+  
+    .header {
+        padding: 34px 25px;
+        height: 101px;
+    }
+
+    .logo h2 {
+        font-size: 22px;
+    }
+
+    .navBtn {
+        font-size: 16px;
+        margin-left: 2rem;
+    }
+
+    .btn {
+        width: 150px;
+        height: 47px;
+    }
+
+    .mainNav .mainNavList .navBtn a:nth-child(3) {
+        width: 100px;
+        height: 47px;
+    
+    }
+
+    .mainNav .mainNavList {
+        font-size: 16px;
+        gap: 5px;
+    }
+    
+
+    
+
+    }
+    .title{
+        font-size: 50px ;
+    }
+    .card-two .image-Wrapper-one {
+        margin-top: 40px;
+    }
+   
+    @media screen and (max-width: 1190px) {
+        .grid{
+            grid-template-columns: repeat(2, 1fr);
+            
+        }
+        .mt-minus{
+            margin-top: -1em;
+        
+        }
+        
+    }
+
+
+
+@media screen and (max-width: 1120px ) {
+    .fig-con .btn-wrapper button{
+        font-size: 20px;
+    
+    }
+    /* Talent low section */
+    .card > div .paragraph{
+        font-size: 30px;
+    }
+
+    .cardOne{
+        padding: 29px;
+    
+    }
+    .title{
+        font-size: 40px ;
+
+    }
+    .card-two .image-Wrapper-one {
+        margin-top: 40px;
+    }
+    .cardOne h3{
+        font-size: 25px;
+    }
+    .cardOne h3 > span{
+        font-size: 20px;
+    }
+    .cardOne p{
+    margin-top: 20px;
+    margin-bottom: 3rem;
+    }
+    
+
+
+    
+}
+
+    
+
+
+@media screen and (max-width: 1024px) {
+    .mainNav .mainNavList {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    footer{
+        background-image: none;
+        padding: 30px 0;
+    }
+
+
+    /* talent-Wrapper */
+    .talent-Wrapper{
+        width: 80%;
+        align-self: center;
+        margin-left: 6rem;
+        justify-content: center;
+
+    }
+    .team{
+        margin: 5rem 0 5rem 0;
+    }
+    .btn-WrapperOne {
+        margin: 3rem 0 5rem 0;
+    }
+
+
+   
+
+    .logo {
+        width: 100%;
+        justify-content: flex-start;
+        
+    }
+
+
+    .mainItem,
+    .mainNav .mainNavList .navBtn a:nth-child(1),
+    .mainNav .mainNavList .navBtn a:nth-child(3){
+        display: none;
+    }
+    
+
+    .btn-mobile-nav {
+        display: block;
+        font-size: 30px;
+    }
+
+    .btn-mobile-nav > [name="close"] {
+        display: none;
+    }
+
+    /* Hero Section */
+    .heroText h1 {
+        font-size: 50px;
+    }
+
+    .heroText p {
+        font-size: 20px;
+    }
+
+    .heroFreels .toggleSwitch {
+        width: 39px;
+        height: 20px;
+    }
+
+    .heroFreels .toggleSwitch::after {
+        width: 20px;
+        height: 20px;
+    }
+    /* FIGMA BUTTON SECTION */
+    .fig-con .btn-wrapper button{
+        font-size: 16px;
+        padding: 0.8rem;
+        text-wrap: nowrap;
+    }
+    /* TALENT SECTION */
+    .talentHead{
+        font-size: 46px;
+        margin-bottom: 175px;
+    }
+    .talentHead P span{
+        font-size: 33px ;
+    }
+    .talentImageCard{
+        margin-bottom: 180px;
+    }
+
+    .talentImageCard .container{
+        height: 400px;
+        width: 300px;
+    }
+    .talentImageCard .container .inCard{
+         font-size: 30px; 
+    }
+    .book{
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        top: 150px;
+    }
+    .keyboard,
+     .phone{
+        width: 300px;
+        height: 200px;
+        top: 190px;
+        
+     }
+     .micro{
+        width: 170px;
+        bottom: -45px;
+        left: 0;
+        
+    }
+    .lFrame{
+        width: 250px;
+    }
+    .t--content p{
+        font-size: 60px;
+
+    }
+    .t--content > p span{
+        font-size: 60px;
+    }
+    .t--content > button{
+        width: 50%;
+    }
+    .talent-low-Wrapper{
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cardRow{
+        
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 1em 3em;
+        margin-bottom: 6rem;
+    
+    }
+    .card-two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+         
+    }
+    .card-two > .image-Wrapper-one {
+        align-items: center;
+        justify-content:center ;
+        order: -1;
+        padding-top: 2px;
+        margin-top: 50px;
+    }
+    
+.card-two > .titleCon > .direction{
+    display: flex;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-top: 5rem;
+}
+.title{
+    margin-top: -40px;
+    font-size: 27px;
+}
+.cardOne h3{
+    font-size: 45px;
+}
+
+.cardOne h3 > span{
+    font-size: 40px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 2.5rem 120px 2.5rem;
+}
+
+
+    
+
+
+
+}
+@media screen and (max-width: 500px) {  
+    
+    .logo h2, .mainNav .mainNavList .navBtn a:nth-child(2){
+        display: none;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .heroText h1 {
+        font-size: 40px;
+        padding: .3em;
+    }
+
+    :is(.heroFreelsone, .heroFreelstwo) {
+        font-size: 15px;
+    }
+    .fig-con{
+        font-size: 14px;
+    }
+
+    
+    /* FIGMA BUTTON SECTION */
+    .fig-con .btn-wrapper button{
+        font-size: 13px;
+        padding: 0.6rem;
+       
+    
+    }
+    /* TALENT WRAPPER */
+    .talent-Wrapper{
+        width: 100%;
+        align-self: center;
+        margin-left: 0rem;
+        justify-content: center;
+
+    }
+
+    /* action  */
+
+    .lower-Wrapper{
+        padding: 2rem 1rem;
+    }
+    .lower-Wrapper .content{
+        font-size: 16px;
+      
+    }
+    .footer-columns ul a{
+        font-size: 14px;
+
+    }
+}
+
+
+ 
